@@ -60,7 +60,7 @@
             <plugin>
                 <groupId>org.xolstice.maven.plugins</groupId>
                 <artifactId>protobuf-maven-plugin</artifactId>
-                <version>0.5.0</version>
+                <version>0.6.1</version>
                 <executions>
                     <execution>
                         <id>protobuf-compile</id>
@@ -70,7 +70,7 @@
                         </goals>
                         <configuration>
                             <outputDirectory>src/main/generated</outputDirectory>
-                            <protocExecutable>${proto.executable}</protocExecutable>
+                            <!--                            <protocExecutable>${proto.executable}</protocExecutable>-->
                         </configuration>
                     </execution>
                 </executions>
